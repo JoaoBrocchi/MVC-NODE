@@ -1,0 +1,17 @@
+<%- include('../layouts/main'); %>
+
+
+<div class="container">
+    <h1>Criação de tasks</h1>
+    <form action="/tasks/add" method="post">
+        <div class="form-control">
+            <label for="title">Title</label>
+            <input type="text" name="title" placeholder="O que vc vai fazer ?">
+        </div>
+        <div class="form-control">
+            <label for="description">description</label>
+            <textarea name="description" id="" placeholder="descreva a tarefa..."></textarea>
+        </div>
+        <input type="submit" value="Criar">
+    </form>
+</div>

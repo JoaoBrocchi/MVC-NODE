@@ -1,0 +1,1 @@
+Meu primeior projeto usando arquitetura de software MVC. Um projeto simples de To-Do List explorando meus conhecimentos em Node, EJS, MySQL, Sequelize, HTML e CSS.
